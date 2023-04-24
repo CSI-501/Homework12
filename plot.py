@@ -27,6 +27,7 @@ plt.plot(0, 0, marker="o", markersize=20, markeredgecolor="black", markerfacecol
 plt.title('Plot of Orbital Simulation')
 plt.xlabel('X')
 plt.ylabel('Y')
+plt.legend(['simulation1', 'simulation2'])
 plt.savefig('orbital_sim')
 
 
@@ -57,6 +58,7 @@ plt.plot(0, 0, marker="o", markersize=20, markeredgecolor="black", markerfacecol
 plt.title('Plot of Orbital Simulation')
 plt.xlabel('X')
 plt.ylabel('Y')
+plt.legend(['simulation3', 'simulation4'])
 plt.savefig('orbital_sim2')
 
 
