@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Plot first two simultations
 
-files = ['simulation1.txt', 'simulation3.txt']
+files = ['simulation1.txt', 'simulation2.txt']
 
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.figure(figsize=(15,10))
@@ -32,7 +32,7 @@ plt.savefig('orbital_sim')
 
 # Plot second two simulations
 
-files = ['simulation2.txt', 'simulation4.txt']
+files = ['simulation3.txt', 'simulation4.txt']
 
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.figure(figsize=(15,10))
